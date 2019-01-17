@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static int[] voterID = new int[250];
