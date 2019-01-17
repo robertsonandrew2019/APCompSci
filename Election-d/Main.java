@@ -73,7 +73,6 @@ public class Main {
             champion = "Stephanie Evans won.";
         }
         if (villalobos > winner) {
-            winner = villalobos;
             champion = "Ray Villalobos won.";
         }
         System.out.printf("The presidency received %d votes.\nMordy Golding: %d\nShira Gotshalk: %d\nStephanie Evans: %d\nRay Villalobos: %d\n%s\n", 250 - noVote, golding, gotshalk, evans, villalobos, champion);
@@ -103,7 +102,6 @@ public class Main {
             champion = "Joe Camp won.";
         }
         if (leblanc > winner) {
-            winner = leblanc;
             champion = "Brandon LeBlanc won.";
         }
         System.out.printf("\nThe vice presidency received %d votes.\nDona Sarkar: %d\nTyler Ahn: %d\nJoe Camp: %d\nBrandon LeBlanc: %d\n%s\n", 250 - noVote, sarkar, ahn, camp, leblanc, champion);
@@ -133,7 +131,6 @@ public class Main {
             champion = "Peggy Fisher won.";
         }
         if (edde > winner) {
-            winner = edde;
             champion = "Neil Edde won.";
         }
         System.out.printf("\nThe office of the secretary received %d votes.\nJason Howard: %d\nNikki Rubino: %d\nPeggy Fisher: %d\nNeil Edde: %d\n%s\n", 250 - noVote, howard, rubino, fisher, edde, champion);
@@ -163,7 +160,6 @@ public class Main {
             champion = "Walt Ritscher won.";
         }
         if (hurley > winner) {
-            winner = hurley;
             champion = "Heather Hurley won.";
         }
         System.out.printf("\nThe office of the treasurer received %d votes.\nDavid Gassner: %d\nSharon Bennett: %d\nWalt Ritscher: %d\nHeather Hurley: %d\n%s\n", 250 - noVote, gassner, bennett, ritscher, hurley, champion);
