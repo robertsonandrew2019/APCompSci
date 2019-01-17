@@ -1,30 +1,31 @@
-/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62136:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/andrewrobertson/IdeaProjects/Election'd/out/production/Election'd Main
-The presidency received 242 votes.
-Mordy Golding: 70
-Shira Gotshalk: 61
-Stephanie Evans: 54
-Ray Villalobos: 57
-Mordy Golding won.
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64528:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/andrewrobertson/IdeaProjects/Election'd/out/production/Election'd Main
+The office of the president received 250 votes.
+Mordy Golding received 0 votes.
+Shira Gotshalk received 0 votes.
+Stephanie Evans received 0 votes.
+Ray Villalobos received 0 votes.
+president won.
 
-The vice presidency received 242 votes.
-Dona Sarkar: 66
-Tyler Ahn: 64
-Joe Camp: 57
-Brandon LeBlanc: 55
+The office of the vice president received 242 votes.
+Dona Sarkar received 70 votes.
+Tyler Ahn received 61 votes.
+Joe Camp received 54 votes.
+Brandon LeBlanc received 57 votes.
 Dona Sarkar won.
 
 The office of the secretary received 242 votes.
-Jason Howard: 66
-Nikki Rubino: 64
-Peggy Fisher: 57
-Neil Edde: 55
+Jason Howard received 66 votes.
+Nikki Rubino received 64 votes.
+Peggy Fisher received 57 votes.
+Neil Edde received 55 votes.
 Jason Howard won.
 
 The office of the treasurer received 242 votes.
-David Gassner: 60
-Sharon Bennett: 50
-Walt Ritscher: 67
-Heather Hurley: 65
-Walt Ritscher won.
+David Gassner received 66 votes.
+Sharon Bennett received 64 votes.
+Walt Ritscher received 53 votes.
+Heather Hurley received 59 votes.
+David Gassner won.
+
 
 Process finished with exit code 0
