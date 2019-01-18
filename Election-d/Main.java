@@ -39,23 +39,20 @@ public class Main {
 
     public static String voteCounter(int[][] data, String[][] candidates, int office) {
         int[] votes = {0, 0, 0, 0, 0};
-        for (int i = 0; i < data[office].length; i++) {
-            if (data[office + 1][i] == 0) votes[0]++;
-            if (data[office + 1][i] == 1) votes[1]++;
-            if (data[office + 1][i] == 2) votes[2]++;
-            if (data[office + 1][i] == 3) votes[3]++;
-            if (data[office + 1][i] == 4) votes[4]++;
-        }
+        for (int i = 0; i < votes.length; i++) {
+            for (int j = 0; j < data[office].length; j++) {
+                if (data[office + 1][j] == i) votes[i]++;
+            } }
         String votesCounted = "The office of the " + candidates[office][0] + " received " + Integer.toString(250 - votes[0]) + " votes.\n";
-        for (int j = 1; j < candidates[office].length; j++) {
-            votesCounted += candidates[office][j] + " received " + Integer.toString(votes[j]) + " votes.\n";
+        for (int k = 1; k < candidates[office].length; k++) {
+            votesCounted += candidates[office][k] + " received " + Integer.toString(votes[k]) + " votes.\n";
         }
         int max = votes[0];
         int index = 0;
-        for (int i = 0; i < votes.length; i++) {
-            if (max < votes[i]) {
-                max = votes[i];
-                index = i;
+        for (int l = 0; l < votes.length; l++) {
+            if (max < votes[l]) {
+                max = votes[l];
+                index = l;
             } }
         votesCounted += candidates[office][index] + " won.\n";
         return votesCounted;
